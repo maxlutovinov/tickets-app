@@ -13,7 +13,7 @@
 ## Description
 
 This is the Java back-end part of a web project as a prototype for a web cinema. Using Spring and Hibernate Frameworks,
-the web application provides authentication, registration, authorization, HTTP request validation, and performing
+the web application provides authentication, registration, authorization, HTTP request validation and performing
 database CRUD operations on the command of HTTP requests.
 
 ## Features
