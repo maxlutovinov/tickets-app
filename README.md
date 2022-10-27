@@ -18,22 +18,22 @@ database CRUD operations on the command of HTTP requests.
 
 ## Features
 
-Depending on the role, Admin or User may have different access to URLs and HTTP request methods:
+Depending on the role, Admin or User may have different access to URLs and HTTP request methods:<br>
 
-    POST: /register   (all users, anonimous and authenticated, have access)
-    GET: /cinema-halls   (user/admin)
-    POST: /cinema-halls   (admin)
-    GET: /movies   (user/admin)
-    POST: /movies   (admin)
-    GET: /movie-sessions/available   (user/admin)
-    POST: /movie-sessions   (admin)
-    PUT: /movie-sessions/{id}   (admin)
-    DELETE: /movie-sessions/{id}   (admin)
-    GET: /orders   (user)
-    POST: /orders/complete   (user)
-    PUT: /shopping-carts/movie-sessions   (user)
-    GET: /shopping-carts/by-user   (user)
-    GET: /users/by-email   (admin)
+* Register user. All users, anonymous and authenticated, have access. `POST: /register`
+* Get all cinema halls. User/admin. `GET: /cinema-halls`
+* Create cinema hall. Admin. `POST: /cinema-halls`
+* Get all movies. User/admin. `GET: /movies`
+* Create movie. Admin. `POST: /movies`
+* Find available movie sessions by movie id and date. User/admin. `GET: /movie-sessions/available`
+* Create movie session. Admin. `POST: /movie-sessions`
+* Update movie session. Admin. `PUT: /movie-sessions/{id}`
+* Remove movie session. Admin. `DELETE: /movie-sessions/{id}`
+* Add movie session to shopping cart. User. `PUT: /shopping-carts/movie-sessions`
+* Get shopping cart. User. `GET: /shopping-carts/by-user`
+* Get orders history. User. `GET: /orders`
+* Complete order. User. `POST: /orders/complete`
+* Get user by email. Admin. `GET: /users/by-email`
 
 After running the program, a user with administrator authority will already be initialized with the following
 credentials:
