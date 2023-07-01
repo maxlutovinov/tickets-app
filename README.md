@@ -1,4 +1,4 @@
-# Cinema-shop
+# Tickets app
 
 <!-- TOC -->
 
@@ -64,7 +64,7 @@ Java 11, Spring (Core, Web, Security), Hibernate, SQL, Maven, Tomcat 9, JSON, He
 
 ### Clone
 
-    git clone https://github.com/maxlutovinov/cinema-shop.git
+    git clone https://github.com/maxlutovinov/tickets-app.git
 
 ### Create database
 
@@ -78,7 +78,7 @@ Change the database properties to yours in [application.properties](src/main/res
 Example for MySQL database:
 
     db.driver=com.mysql.cj.jdbc.Driver
-    db.url=jdbc:mysql://localhost:3306/cinema_shop
+    db.url=jdbc:mysql://localhost:3306/tickets_app
     db.user=root
     db.password=12345678
 
