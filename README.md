@@ -54,7 +54,7 @@ The project have a three-tier architecture that include the following layers of 
 - [DAO](src/main/java/cinema/dao) layer works with the database on request from the service.
 
 The project operates with the entities which are represented in the [model](src/main/java/cinema/model) package of the
-project. The relational dependencies between them is shown in the diagram [here](cinema_uml.png).
+project. The relational dependencies between them are shown in the diagram [here](cinema_uml.png).
 
 ## Technology stack
 
